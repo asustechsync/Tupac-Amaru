@@ -1,0 +1,23 @@
+.footer {
+    background: #1e293b;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.dark {
+    background: #0f172a;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bottom {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 0.9rem;
+}

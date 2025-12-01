@@ -1,0 +1,35 @@
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #0ea5e9;
+}
+
+.dark {
+    color: #38bdf8;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.empty {
+    grid-column: 1/-1;
+    text-align: center;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
