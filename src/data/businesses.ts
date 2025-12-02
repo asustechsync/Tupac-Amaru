@@ -90,6 +90,14 @@ export const businesses: Business[] = [
         location: "Pasillo C - Puesto 30",
         phone: "988123456"
     },
+        {
+        name: "Dulce Luz",
+        category: "Medias",
+        icon: "🧦",
+        description: "Medias, boxer y Lencería por mayor",
+        location: "Pasillo 1 - Puesto C-63",
+        phone: "987456789"
+    },
     {
         name: "Bolsos & Billeteras",
         category: "Accesorios",
